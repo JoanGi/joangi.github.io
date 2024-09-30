@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Joan Giner-Miguelez
-description: Researcher at Universitat Oberta de Catalunya (UOC) 
+description: Researcher at Barcelona Supercomputing Center (BSC)
 
 baseurl: /joangi.github.io #name of GitHub repository
 url: "https://www.joanginermiguelez.com" #custom url to be used instead of GitHub repository
