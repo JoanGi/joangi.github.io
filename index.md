@@ -10,7 +10,7 @@ I'm a researcher who focuses on improving data practices for fair and trustworth
 
 
 ### Publications:
-* [A Standardized Machine-readable Dataset Documentation Format for Responsible AI](https://arxiv.org/pdf/2407.16883). Nitisha Jain, Mubashara Akhtar, Joan Giner-Miguelez and others, arXic preprint
+* [A Standardized Machine-readable Dataset Documentation Format for Responsible AI](https://arxiv.org/pdf/2407.16883). Nitisha Jain, Mubashara Akhtar, Joan Giner-Miguelez and others, arXiv preprint
 * [Croissant: A Metadata Format for ML-Ready Datasets](https://arxiv.org/pdf/2403.19546). Akhtar, Mubashara and Benjelloun, Omar and Conforti, Costanza and Giner-Miguelez, Joan and others, accepted at Neurips D&B 2024.
 * [On the Readiness of Scientific Data for a Fair and Transparent Use in Machine Learning ](https://arxiv.org/abs/2401.10304). Giner-Miguelez, Joan, Abel Gómez, and Jordi Cabot. January 2024, arXiv preprint
 * [Using Large Language Models to Enrich the Documentation of Datasets for Machine Learning](https://arxiv.org/pdf/2404.15320). Giner-Miguelez, Joan, Abel Gómez, and Jordi Cabot. April 2024, arXiv preprint
