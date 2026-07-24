@@ -15,7 +15,7 @@ I'm a researcher at the [Barcelona Supercomputing Center](https://www.bsc.es/), 
 <div class="projects" markdown="1">
 
 <div class="project" markdown="1">
-### [AI ACT Advisory forum](https://digital-strategy.ec.europa.eu/en/policies/ai-advisory-forum)
+### [AI Act Advisory forum](https://digital-strategy.ec.europa.eu/en/policies/ai-advisory-forum)
 Member of the Advisory forum of the advisory AI ACT representing the Barcelona Supercomputing Center, shaping the future of AI regulation in Europe
 </div>
 
