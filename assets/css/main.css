@@ -53,7 +53,7 @@ body {
 /* ---- Masthead ---- */
 .masthead {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 1.75rem;
   margin-bottom: 3rem;
@@ -67,7 +67,7 @@ body {
 }
 .role {
   color: var(--muted);
-  margin: 0 0 1.1rem;
+  margin: 0 0 0.6rem;
   font-size: 0.98rem;
 }
 .nav {
@@ -84,8 +84,8 @@ body {
 .nav a:hover { color: var(--accent); }
 
 .avatar {
-  width: 108px;
-  height: 108px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
@@ -147,7 +147,7 @@ a:hover { color: var(--accent); border-color: var(--accent); }
 /* ---- Small screens ---- */
 @media (max-width: 34rem) {
   .masthead { flex-direction: column-reverse; align-items: flex-start; }
-  .avatar { width: 88px; height: 88px; }
+  .avatar { width: 132px; height: 132px; }
 }
 
 /* Smooth anchor jumps with a little offset */

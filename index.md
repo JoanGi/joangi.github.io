@@ -15,9 +15,20 @@ I'm a researcher at the [Barcelona Supercomputing Center](https://www.bsc.es/), 
 <div class="projects" markdown="1">
 
 <div class="project" markdown="1">
-### [Croissant RAI](https://mlcommons.github.io/croissant/docs/croissant-rai-spec.html)
-Responsible AI extension of the Croissant metadata vocabulary for ML datasets.
+### [AI ACT Advisory forum](https://digital-strategy.ec.europa.eu/en/policies/ai-advisory-forum)
+Member of the Advisory forum of the advisory AI ACT representing the Barcelona Supercomputing Center, shaping the future of AI regulation in Europe
 </div>
+
+<div class="project" markdown="1">
+### [Leading the Croissant Responsible AI](https://mlcommons.github.io/croissant/docs/croissant-rai-spec.html)
+Responsible AI extension of the Croissant metadata standard.
+</div>
+
+<div class="project" markdown="1">
+### [Croissant Specification](https://docs.mlcommons.org/croissant/docs/croissant-spec-1.1.html)
+Croissant metadata standard for ML datasets powered by the MLCommons.
+</div>
+
 
 <div class="project" markdown="1">
 ### [DataDoc Analyzer](https://www.youtube.com/watch?v=bffVXA5D2-8)
