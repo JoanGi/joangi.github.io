@@ -1,68 +1,34 @@
-### your site title here
-
 title: Joan Giner-Miguelez
-description: Researcher at Barcelona Supercomputing Center (BSC)
+description: Researcher at the Barcelona Supercomputing Center (BSC), working on data-sharing techniques for machine learning and the human aspects of software engineering.
+url: "https://www.joanginermiguelez.com"
+baseurl: ""
 
-baseurl: /joangi.github.io #name of GitHub repository
-url: "https://www.joanginermiguelez.com" #custom url to be used instead of GitHub repository
-email: jginermi@uoc.edu
-
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-# Social media links in footer
-twitter: "giner_joan"
-linkedin: "joan-giner-miguelez/"
+# Contact & academic profiles (edit these; the footer/contact section reads them)
+email: giner.joan@gmail.com
+linkedin: "joan-giner-miguelez"
 github: "JoanGi"
-researchgate: "Joan-Giner-Miguelez"
+scholar: "" # add your Google Scholar user id, e.g. XXXXXXX (from scholar.google.com/citations?user=XXXXXXX)
 orcid: "0000-0003-2335-6977"
+researchgate: "Joan-Giner-Miguelez"
 
-
-
-# Markdown
-highlighter: rouge
+# Build
 markdown: kramdown
-
-# Tracker
-analytics:
-
-# optimization -> compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
-
-#collection
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
-    order:
-      - RAI.md
-      - DataDoc.md
-      - describeML.md
-
-
+highlighter: rouge
 sass:
-  sass_dir: /assets/css/_sass
   style: compressed
+
+plugins:
+  - jekyll-seo-tag
 
 include:
   - _pages
 
 exclude:
   - README.md
-  - LICENSE.md
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-email-protect
-  - jekyll-target-blank
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - assets/images/DSC06294.jpg
+  - assets/images/DSC06300.jpg
+  - assets/images/DSC06300-short.jpg
+  - assets/images/DSC06266-copia.jpg

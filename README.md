@@ -1,28 +1,42 @@
-# Gradfolio
+# joanginermiguelez.com
 
-responsive, dark-mode ready Jekyll theme designed for use as a personal website and portfolio. [Here's a live demo](https://jitinnair1.github.io/gradfolio/)
+Personal website of Joan Giner-Miguelez — a minimalist, single-page Jekyll site
+hosted on GitHub Pages. Everything you'll normally touch is Markdown.
 
-## Features
-- Responsive
-- Respects Dark Mode preference set by the user
-- Projects Page to showcase your work/side projects
-- Easily link to your profiles on ResearchGate and ORCID
+## Editing content
 
-## Installation
-* Click on `Use this template`
-* Your new site should be ready at https://username.github.io/gradfolio/
-* You can now modify the contents and personalise the template
+Almost all content lives in one file:
 
-Alternatively, you can [download the source files](https://github.com/jitinnair1/gradfolio/archive/master.zip) and [make changes locally](https://github.com/jitinnair1/gradfolio/wiki/Local-Development). 
+- **[`index.md`](index.md)** — the whole page: About, Projects, Publications,
+  Teaching, Contact. Edit the Markdown between the `<section>` tags. To add a
+  publication, copy a line in the Publications list. To add a project, copy a
+  `<div class="project">` block.
+- **[`_config.yml`](_config.yml)** — your name, tagline, email, and the social
+  links shown in the footer (LinkedIn, GitHub, ORCID, ResearchGate, and
+  Google Scholar once you add your Scholar id).
 
-## Documentation
+Design lives in **[`assets/css/main.css`](assets/css/main.css)** and the page
+frame (header, nav, footer) in **[`_layouts/default.html`](_layouts/default.html)**.
 
-Check out the [Wiki](https://github.com/jitinnair1/gradfolio/wiki) for some tips on [publishing to a custom domain](https://github.com/jitinnair1/gradfolio/wiki/Publishing-your-website) or an [indicative list of things to customise before you publish](https://github.com/jitinnair1/gradfolio/wiki/Customising-your-website) 
+## Publishing
 
-### Also, check out:
+Push to `master`. The GitHub Action in [`.github/workflows/pages.yml`](.github/workflows/pages.yml)
+builds the site and deploys it to the `gh-pages` branch automatically. The live
+site is served at the domain in [`CNAME`](CNAME).
 
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+## Running locally (optional)
 
+Requires Ruby. Then:
 
-PS: If you liked the theme, do star :star: it! Thanks!
+```
+bundle install
+bundle exec jekyll serve
+```
+
+Open http://localhost:4000.
+
+## Photos
+
+The profile photo is `assets/images/joan.jpg` (optimized). The large original
+camera files (`DSC*.jpg`) are kept out of the build via `_config.yml`'s
+`exclude` list; you can delete them from the repo if you don't need them.

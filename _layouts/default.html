@@ -1,50 +1,48 @@
----
-# layout: compress
----
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% include favicon.html %}
+  {% seo %}
+</head>
+<body>
+  <div class="wrap">
 
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
-        <meta name="google-site-verification" content="XrETTtbvULZ3RVpT3CmiaTJmzzfDW2jCIx2xHmVpR0U" />
+    <header class="masthead">
+      <div class="masthead-text">
+        <h1 class="name">{{ site.title }}</h1>
+        <p class="role">Researcher · Barcelona Supercomputing Center</p>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#publications">Publications</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      {% if page.image %}
+      <img class="avatar" src="{{ page.image | relative_url }}" alt="Portrait of {{ site.title }}" width="120" height="120">
+      {% endif %}
+    </header>
 
-        <h1 class="post-headline">{{site.title}}</h1>
-        <h3 class="post-description">{{site.description}}</h3>
+    <main>
+      {{ content }}
+    </main>
 
-        {% include navigation.html %}
+    <footer class="site-footer">
+      <div class="social">
+        {% if site.email %}<a href="mailto:{{ site.email }}" aria-label="Email">Email</a>{% endif %}
+        {% if site.scholar and site.scholar != "" %}<a href="https://scholar.google.com/citations?user={{ site.scholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+        {% if site.orcid %}<a href="https://orcid.org/{{ site.orcid }}" target="_blank" rel="noopener">ORCID</a>{% endif %}
+        {% if site.github %}<a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+        {% if site.linkedin %}<a href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+        {% if site.researchgate %}<a href="https://www.researchgate.net/profile/{{ site.researchgate }}" target="_blank" rel="noopener">ResearchGate</a>{% endif %}
+      </div>
+      <p class="copy">© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    </footer>
 
-        {% seo %}
-
-        {% include favicon.html %}
-
-        {% include mathjax.html %}
-
-        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
-        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
-    </head>
-
-    <body>
-        <main>
-            <article>
-                {{ content }}
-            </article>
-        </main>
-
-        <footer>
-          <p class="copy">
-            <small> &copy; {{site.title}} {{ site.time | date: '%Y' }}
-                    Last updated on {{ site.time | date_to_long_string }}
-            </small>
-          </p>
-
-        {% include social-footer.html %}
-
-        </footer>
-
-        {% include analytics.html %}
-
-    </body>
-
+  </div>
+</body>
 </html>
