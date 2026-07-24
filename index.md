@@ -55,7 +55,7 @@ A VS Code language plugin to describe machine learning datasets.
 - [The Software Diversity Card: A Framework for Reporting Diversity in Software Projects](https://arxiv.org/pdf/2503.05470). *Information and Software Technology*, Elsevier, 2025.
 - [On the Readiness of Scientific Data for a Fair and Transparent Use in Machine Learning](https://www.nature.com/articles/s41597-025-04402-4). *Scientific Data*, Nature, 2025.
 - [A Standardized Machine-readable Dataset Documentation Format for Responsible AI](https://arxiv.org/pdf/2407.16883). *arXiv preprint*, 2025.
-- [Croissant: A Metadata Format for ML-Ready Datasets](https://proceedings.neurips.cc/paper_files/paper/2024/file/9547b09b722f2948ff3ddb5d86002bc0-Paper-Datasets_and_Benchmarks_Track.pdf). *NeurIPS*, 2024.
+- [Croissant: A Metadata Format for ML-Ready Datasets](https://proceedings.neurips.cc/paper_files/paper/2024/file/9547b09b722f2948ff3ddb5d86002bc0-Paper-Datasets_and_Benchmarks_Track.pdf). *NeurIPS*, 2025.
 - [Model Driven Engineering, Artificial Intelligence, and DevOps: A Systematic Mapping Study of Synergies and Challenges](https://dl.acm.org/doi/pdf/10.1145/3759454). *ACM Transactions on Software Engineering and Methodology (TOSEM)*, 2025.
 - [Using Large Language Models to Enrich the Documentation of Datasets for Machine Learning](https://arxiv.org/pdf/2404.15320). *arXiv preprint*, 2024.
 - [DataDoc Analyzer: A Tool for Analyzing the Documentation of Scientific Datasets](https://dl.acm.org/doi/abs/10.1145/3583780.3614737). *CIKM*, 2023.
