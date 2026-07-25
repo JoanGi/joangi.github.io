@@ -1,7 +1,8 @@
 ---
 layout: default
 permalink: /
-image: /assets/images/joan.jpg
+image: /assets/images/og-cover.png
+portrait: /assets/images/joan.jpg
 ---
 
 <section id="about" markdown="1">
@@ -20,7 +21,7 @@ Member of the Advisory forum of the advisory AI ACT representing the Barcelona S
 </div>
 
 <div class="project" markdown="1">
-### [Leading the Croissant Responsible AI](https://mlcommons.github.io/croissant/docs/croissant-rai-spec.html)
+### [Co-leading the Croissant Responsible AI](https://mlcommons.github.io/croissant/docs/croissant-rai-spec.html)
 Responsible AI extension of the Croissant metadata standard.
 </div>
 
@@ -44,35 +45,73 @@ A VS Code language plugin to describe machine learning datasets.
 </section>
 
 <section id="publications" markdown="1">
-## Publications
+## Highlighted publications
 
-- [When AI Meets Science: Research Diversity, Interdisciplinarity, Visibility, and Retractions across Disciplines in a Global Surge](https://arxiv.org/pdf/2605.06033). *arxViv*, 2026.
+- [When AI Meets Science: Research Diversity, Interdisciplinarity, Visibility, and Retractions across Disciplines in a Global Surge](https://arxiv.org/pdf/2605.06033). ___arXiv___, 2026.
 
-- [Croissant Baker: Metadata Generation for Discoverable, Governable, and Reusable ML Datasets](https://arxiv.org/pdf/2605.15079). *arxViv*, 2026.
+- [Croissant Baker: Metadata Generation for Discoverable, Governable, and Reusable ML Datasets](https://arxiv.org/pdf/2605.15079). <br>___arXiv___, 2026.
 
-- [Press Releases Shape Online Attention for Neuroscience Articles](https://link.springer.com/article/10.1007/s11192-026-05735-6). *Scientometrics*, Springer Nature, 2026.
+- [Press Releases Shape Online Attention for Neuroscience Articles](https://link.springer.com/article/10.1007/s11192-026-05735-6). <br>___Scientometrics___, Springer Nature, 2026.
 
-- [The Software Diversity Card: A Framework for Reporting Diversity in Software Projects](https://arxiv.org/pdf/2503.05470). *Information and Software Technology*, Elsevier, 2025.
-- [On the Readiness of Scientific Data for a Fair and Transparent Use in Machine Learning](https://www.nature.com/articles/s41597-025-04402-4). *Scientific Data*, Nature, 2025.
-- [A Standardized Machine-readable Dataset Documentation Format for Responsible AI](https://arxiv.org/pdf/2407.16883). *arXiv preprint*, 2025.
-- [Croissant: A Metadata Format for ML-Ready Datasets](https://proceedings.neurips.cc/paper_files/paper/2024/file/9547b09b722f2948ff3ddb5d86002bc0-Paper-Datasets_and_Benchmarks_Track.pdf). *NeurIPS*, 2025.
-- [Model Driven Engineering, Artificial Intelligence, and DevOps: A Systematic Mapping Study of Synergies and Challenges](https://dl.acm.org/doi/pdf/10.1145/3759454). *ACM Transactions on Software Engineering and Methodology (TOSEM)*, 2025.
-- [Using Large Language Models to Enrich the Documentation of Datasets for Machine Learning](https://arxiv.org/pdf/2404.15320). *arXiv preprint*, 2024.
-- [DataDoc Analyzer: A Tool for Analyzing the Documentation of Scientific Datasets](https://dl.acm.org/doi/abs/10.1145/3583780.3614737). *CIKM*, 2023.
-- [A Domain-specific Language for Describing Machine Learning Datasets](https://doi.org/10.1016/j.cola.2023.101209). *Journal of Computer Languages*, 2023.
-- [DescribeML: A Dataset Description Tool for Machine Learning](https://doi.org/10.1016/j.scico.2023.103030). *Science of Computer Programming*, 2022.
-- [Enabling Content Management Systems as an Information Source in Model-Driven Projects](https://doi.org/10.1007/978-3-031-05760-1_30). *RCIS*, 2022.
+- [The Software Diversity Card: A Framework for Reporting Diversity in Software Projects](https://arxiv.org/pdf/2503.05470).<br> ___Information and Software Technology___, Elsevier, 2025.
+
+- [On the Readiness of Scientific Data for a Fair and Transparent Use in Machine Learning](https://www.nature.com/articles/s41597-025-04402-4).<br> ___Scientific Data___, Springer Nature, 2025.
+
+- [A Standardized Machine-readable Dataset Documentation Format for Responsible AI](https://arxiv.org/pdf/2407.16883). ___arXiv___, 2025.
+
+- [Croissant: A Metadata Format for ML-Ready Datasets](https://proceedings.neurips.cc/paper_files/paper/2024/file/9547b09b722f2948ff3ddb5d86002bc0-Paper-Datasets_and_Benchmarks_Track.pdf). <br> ___NeurIPS 2025___.
+
+- [Model Driven Engineering, Artificial Intelligence, and DevOps: A Systematic Mapping Study of Synergies and Challenges](https://dl.acm.org/doi/pdf/10.1145/3759454). <br>___ACM Transactions on Software Engineering and Methodology (TOSEM)___, ACM 2025.
+
+- [DataDoc Analyzer: A Tool for Analyzing the Documentation of Scientific Datasets](https://dl.acm.org/doi/abs/10.1145/3583780.3614737). ___CIKM 2023___.
+
+- [A Domain-specific Language for Describing Machine Learning Datasets](https://doi.org/10.1016/j.cola.2023.101209).  <br>
+___Journal of Computer Languages___, Elsevier 2023.
+
+- [DescribeML: A Dataset Description Tool for Machine Learning](https://doi.org/10.1016/j.scico.2023.103030). <br>___Science of Computer Programming___, Elsevier 2022.
+
 {:.pubs}
 </section>
 
 <section id="teaching" markdown="1">
-## Teaching
+## Community Commitment & Teaching
 
-I have taught, created course content, and coordinated practicums for web and software development courses at the [Universitat Autònoma de Barcelona (UAB)](https://www.uab.cat/) and the [Universitat Oberta de Catalunya (UOC)](https://www.uoc.edu/).
+**Reviewing**
+
+Conferences: NeurIPS (2024, 2025, 2026), CIKM (2023, 2024), MODELS (2022). 
+
+Journals: Scientific Data (Springer Nature), IEEE Software, Information Processing & Management (Elsevier), Journal of Computer Languages (Elsevier), Journal of Policy Research.
+
+**Academic advisor** 
+
+Evaluated new computer science degrees for the Andorran Quality Assurance Agency (AQUA), 2023–2024.
+
+**Teaching** 
+
+I have taught, created course content, and coordinated practicums for computer science and software engineering courses at the [Universitat Autònoma de Barcelona (UAB)](https://www.uab.cat/) and the [Universitat Oberta de Catalunya (UOC)](https://www.uoc.edu/).
+
+-  **Content Management Systems** — UOC, Computer Science degree · 2018–2021
+
+- **Programming Languages II** — UAB, Computer Science degree · 2020
+
+- **Web Technologies** — UAB, Computer Science degree · 2020–2024
+
+- **Advanced software engineering** — UOC, Computer Science degree · 2024-2026
+{:.pubs}
+
+I have also supervised more than 20 final-degree and master's theses across both universities.
+
+
 </section>
 
-<section id="contact" markdown="1">
-## Contact
+<section id="experience" markdown="1">
+## Past experience
 
-The best way to reach me is by [email](mailto:{{ site.email }}). You can also find me on the profiles linked below.
+**Software Architect** 2018-2021 — [Sopra Steria S.A.](https://www.soprasteria.com/), delivering enterprise software for international clients.
+
+**Member of Parliament** 2015-2018 — [Parliament of Catalonia](https://www.parlament.cat/web/composicio/diputats-fitxa/index.html?p_codi=1851&p_legislatura=11) , serving as spokesperson on its Science and Technology Committee.
+
+**Software Developer** 2012-2015 — Start-up web crafting company delivering web-based software.
 </section>
+
+

@@ -9,7 +9,9 @@
   --muted:   #676c71;
   --rule:    #e5e6e4;
   --accent:  #2f6d78;   /* muted teal — restrained, cool, "chosen" */
-  --maxw:    46rem;
+  --social:       #1a6fd0;  /* profile-icon blue */
+  --social-hover: #0f4f9c;
+  --maxw:    52rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,13 +21,17 @@
     --muted:  #969b9f;
     --rule:   #292c30;
     --accent: #6fb3bb;
+    --social: #5b9be6;
+    --social-hover: #8bbcf0;
   }
 }
 :root[data-theme="light"] {
   --bg: #fcfcfb; --text: #1a1c1e; --muted: #676c71; --rule: #e5e6e4; --accent: #2f6d78;
+  --social: #1a6fd0; --social-hover: #0f4f9c;
 }
 :root[data-theme="dark"] {
   --bg: #15171a; --text: #e7e8e6; --muted: #969b9f; --rule: #292c30; --accent: #6fb3bb;
+  --social: #5b9be6; --social-hover: #8bbcf0;
 }
 
 * { box-sizing: border-box; }
@@ -56,7 +62,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 1.75rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .name {
   font-size: 1.7rem;
@@ -82,6 +88,13 @@ body {
   border: 0;
 }
 .nav a:hover { color: var(--accent); }
+
+.masthead-social {
+  margin-top: 1.4rem;
+  font-size: 0.85rem;
+}
+.masthead-social a { color: var(--text); }
+.masthead-social a:hover { color: var(--accent); }
 
 .avatar {
   width: 240px;
@@ -139,15 +152,17 @@ a:hover { color: var(--accent); border-color: var(--accent); }
   border-top: 1px solid var(--rule);
   font-size: 0.9rem;
 }
-.social { display: flex; flex-wrap: wrap; gap: 1.1rem; margin-bottom: 0.75rem; }
-.social a { color: var(--muted); border: 0; }
-.social a:hover { color: var(--accent); }
+.social { display: flex; flex-wrap: wrap; align-items: center; gap: 0.9rem; }
+.social a { color: var(--social); border: 0; display: inline-flex; line-height: 0; }
+.social svg { width: 22px; height: 22px; fill: currentColor; display: block; transition: color 0.15s ease, transform 0.15s ease; }
+.social a:hover { color: var(--social-hover); }
+.social a:hover svg { transform: translateY(-2px); }
 .copy { color: var(--muted); margin: 0; font-size: 0.85rem; }
 
 /* ---- Small screens ---- */
 @media (max-width: 34rem) {
   .masthead { flex-direction: column-reverse; align-items: flex-start; }
-  .avatar { width: 132px; height: 132px; }
+  .avatar { width: 240px; height: 240px; align-self: center; }
 }
 
 /* Smooth anchor jumps with a little offset */

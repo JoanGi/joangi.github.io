@@ -1,15 +1,34 @@
 title: Joan Giner-Miguelez
-description: Researcher at the Barcelona Supercomputing Center (BSC), working on data-sharing techniques for machine learning and the human aspects of software engineering.
+tagline: Researcher at the Barcelona Supercomputing Center
+description: >-
+  Joan Giner-Miguelez is a researcher at the Barcelona Supercomputing Center (BSC),
+  working on AI methods for the social sciences and humanities, responsible data-sharing
+  for machine learning, and the Croissant metadata standard.
 url: "https://www.joanginermiguelez.com"
 baseurl: ""
+lang: en
+author: Joan Giner-Miguelez
+# Social-share image is set per page in front matter (jekyll-seo-tag reads page.image).
+# The home page uses /assets/images/og-cover.png.
+twitter:
+  card: summary_large_image
+
+# Profiles emitted as schema.org "sameAs" links for SEO
+social:
+  name: Joan Giner-Miguelez
+  links:
+    - https://www.linkedin.com/in/joan-giner-miguelez
+    - https://github.com/JoanGi
+    - https://orcid.org/0000-0003-2335-6977
+    - https://scholar.google.com/citations?user=zTSql-wAAAAJ
 
 # Contact & academic profiles (edit these; the footer/contact section reads them)
-email: giner.joan@gmail.com
+email: joan.giner@bsc.com
 linkedin: "joan-giner-miguelez"
 github: "JoanGi"
-scholar: "" # add your Google Scholar user id, e.g. XXXXXXX (from scholar.google.com/citations?user=XXXXXXX)
+scholar: "zTSql-wAAAAJ" # Google Scholar user id (from scholar.google.com/citations?user=XXXXXXX)
 orcid: "0000-0003-2335-6977"
-researchgate: "Joan-Giner-Miguelez"
+
 
 # Build
 markdown: kramdown
@@ -19,6 +38,7 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 include:
   - _pages
