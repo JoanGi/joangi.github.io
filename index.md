@@ -11,32 +11,38 @@ I'm a researcher at the [Barcelona Supercomputing Center](https://www.bsc.es/), 
 </section>
 
 <section id="projects" markdown="1">
+  
 ## Projects and Tools
 
 <div class="projects" markdown="1">
 
 <div class="project" markdown="1">
+  
 ### [AI Act Advisory forum](https://digital-strategy.ec.europa.eu/en/policies/ai-advisory-forum)
 Member of the Advisory forum of the advisory AI ACT representing the Barcelona Supercomputing Center, shaping the future of AI regulation in Europe
 </div>
 
 <div class="project" markdown="1">
+  
 ### [Co-leading the Croissant Responsible AI](https://mlcommons.github.io/croissant/docs/croissant-rai-spec.html)
 Responsible AI extension of the Croissant metadata standard.
 </div>
 
 <div class="project" markdown="1">
+  
 ### [Croissant Specification](https://docs.mlcommons.org/croissant/docs/croissant-spec-1.1.html)
 Croissant metadata standard for ML datasets powered by the MLCommons.
 </div>
 
 
 <div class="project" markdown="1">
+  
 ### [DataDoc Analyzer](https://www.youtube.com/watch?v=bffVXA5D2-8)
 Using large language models to analyze the documentation of scientific datasets for Responsible AI.
 </div>
 
 <div class="project" markdown="1">
+  
 ### [DescribeML](https://www.youtube.com/watch?v=bffVXA5D2-8)
 A VS Code language plugin to describe machine learning datasets.
 </div>
@@ -45,11 +51,16 @@ A VS Code language plugin to describe machine learning datasets.
 </section>
 
 <section id="publications" markdown="1">
+  
 ## Highlighted publications
 
-- [When AI Meets Science: Research Diversity, Interdisciplinarity, Visibility, and Retractions across Disciplines in a Global Surge](https://arxiv.org/pdf/2605.06033). ___arXiv___, 2026.
+- [When AI Meets Science: Research Diversity, Interdisciplinarity, Visibility, and Retractions across Disciplines in a Global Surge](https://arxiv.org/pdf/2605.06033). <br>___arXiv___, 2026.
+  
+- [AI-Ready Research Workflows in Computational Social Science: Lessons on Building a Shared Language for Interdisciplinary Collaboration](https://arxiv.org/pdf/2608.24914). <br>___arXiv___, 2026
 
-- [Croissant Baker: Metadata Generation for Discoverable, Governable, and Reusable ML Datasets](https://arxiv.org/pdf/2605.15079). <br>___arXiv___, 2026.
+- [CroissantMinner: Automated Extraction and Validation of Croissant Metadata for ML Datasets](https://arxiv.org/abs/2610.07132). <br>___NeurIPS - Evaluation & Benchmark track___, 2026.
+
+- [CroissantBaker: Metadata Generation for Discoverable, Governable, and Reusable ML Datasets](https://arxiv.org/pdf/2605.15079). <br>___NeurIPS - Evaluation & Benchmark track___, 2026.
 
 - [Press Releases Shape Online Attention for Neuroscience Articles](https://link.springer.com/article/10.1007/s11192-026-05735-6). <br>___Scientometrics___, Springer Nature, 2026.
 
@@ -57,13 +68,13 @@ A VS Code language plugin to describe machine learning datasets.
 
 - [On the Readiness of Scientific Data for a Fair and Transparent Use in Machine Learning](https://www.nature.com/articles/s41597-025-04402-4).<br> ___Scientific Data___, Springer Nature, 2025.
 
-- [A Standardized Machine-readable Dataset Documentation Format for Responsible AI](https://arxiv.org/pdf/2407.16883). ___arXiv___, 2025.
+- [A Standardized Machine-readable Dataset Documentation Format for Responsible AI](https://arxiv.org/pdf/2407.16883). <br> ___arXiv___, 2025.
 
 - [Croissant: A Metadata Format for ML-Ready Datasets](https://proceedings.neurips.cc/paper_files/paper/2024/file/9547b09b722f2948ff3ddb5d86002bc0-Paper-Datasets_and_Benchmarks_Track.pdf). <br> ___NeurIPS 2025___.
 
-- [Model Driven Engineering, Artificial Intelligence, and DevOps: A Systematic Mapping Study of Synergies and Challenges](https://dl.acm.org/doi/pdf/10.1145/3759454). <br>___ACM Transactions on Software Engineering and Methodology (TOSEM)___, ACM 2025.
+- [Model Driven Engineering, Artificial Intelligence, and DevOps: A Systematic Mapping Study of Synergies and Challenges](https://dl.acm.org/doi/pdf/10.1145/3759454). <br>___ACM Transactions on Software Engineering and Methodology (TOSEM)___, 2025.
 
-- [DataDoc Analyzer: A Tool for Analyzing the Documentation of Scientific Datasets](https://dl.acm.org/doi/abs/10.1145/3583780.3614737). ___CIKM 2023___.
+- [DataDoc Analyzer: A Tool for Analyzing the Documentation of Scientific Datasets](https://dl.acm.org/doi/abs/10.1145/3583780.3614737). <br> ___International Conference on Information and Knowledge Management (CKIM) 2023___.
 
 - [A Domain-specific Language for Describing Machine Learning Datasets](https://doi.org/10.1016/j.cola.2023.101209).  <br>
 ___Journal of Computer Languages___, Elsevier 2023.
@@ -74,13 +85,14 @@ ___Journal of Computer Languages___, Elsevier 2023.
 </section>
 
 <section id="teaching" markdown="1">
+  
 ## Community Commitment & Teaching
 
 **Reviewing**
 
 Conferences: NeurIPS (2024, 2025, 2026), CIKM (2023, 2024), MODELS (2022). 
 
-Journals: Scientific Data (Springer Nature), IEEE Software, Information Processing & Management (Elsevier), Journal of Computer Languages (Elsevier), Journal of Policy Research.
+Journals: Scientific Data (Springer Nature), IEEE Software, Information Processing & Management (Elsevier), Journal of Computer Languages (Elsevier), Journal of Policy Research, Journal of Artificial Intelligence & Law, Journal of Ai & Ethics
 
 **Academic advisor** 
 
